@@ -1,4 +1,4 @@
-/* Base Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ body {
   color: #333;
 }
 
-/* Navbar Styles */
+
 #navbar {
   position: fixed;
   top: 0;
@@ -65,7 +65,7 @@ body {
   left: 0;
 }
 
-/* Hero Section */
+
 .hero {
   height: 100vh;
   background: linear-gradient(to right, #1abc9c, #16a085);
@@ -106,7 +106,7 @@ body {
   color: #138a72;
 }
 
-/* Section Styles */
+
 .section {
   padding: 100px 20px;
   text-align: center;
@@ -126,7 +126,7 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Form Styling */
+
 .form {
   display: flex;
   flex-direction: column;
@@ -157,7 +157,7 @@ body {
   background: #138a72;
 }
 
-/* Course Cards */
+
 .course-list {
   display: flex;
   flex-wrap: wrap;
@@ -181,7 +181,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Hoverable Texts */
+
 .hoverable {
   transition: color 0.3s ease;
 }
@@ -190,7 +190,7 @@ body {
   color: #1abc9c;
 }
 
-/* Responsive Nav for Smaller Screens */
+
 @media (max-width: 768px) {
   .nav-menu {
     flex-direction: column;
