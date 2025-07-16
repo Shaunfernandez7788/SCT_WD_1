@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <!-- Fixed Navigation -->
+  <header id="navbar">
+    <div class="logo">StudentPortal</div>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="hoverable">Welcome to Student Registration Portal</h1>
+      <p class="hoverable">Shape your future with the right education.</p>
+      <a href="#register" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Register Section -->
+  <section id="register" class="section">
+    <h2 class="hoverable">Register Now</h2>
+    <form class="form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Course Interested In" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="section light-bg">
+    <h2 class="hoverable">Courses Offered</h2>
+    <div class="course-list">
+      <div class="course hoverable">Web Development</div>
+      <div class="course hoverable">AI & ML</div>
+      <div class="course hoverable">Cloud Computing</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="hoverable">Contact Us</h2>
+    <p>Email: info@studentportal.com</p>
+    <p>Phone: +91 98765 43210</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
